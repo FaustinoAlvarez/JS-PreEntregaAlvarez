@@ -12,16 +12,16 @@
 
 
 
-// let entrada = prompt("Ingrese texto o ESC para interrumpir")
+let entrada = prompt("Ingrese texto o ESC para interrumpir")
 
-// let texto = ""
+let texto = ""
 
-// while (entrada != "ESC" && entrada != "esc"){
-//     texto += entrada + " "
-//     entrada = prompt("Ingrese texto o ESC para interrumpir")
-// }
+while (entrada != "ESC" && entrada != "esc"){
+    texto += entrada + " "
+    entrada = prompt("Ingrese texto o ESC para interrumpir")
+}
 
-// alert(texto)
+alert(texto)
 
 
 
@@ -46,9 +46,27 @@
 // } 
 
 
-let tabla = Number(prompt("Ingrese la tabla de multiplicar"))
+// let tabla = Number(prompt("Ingrese la tabla de multiplicar"))
 
-for (let i = 1 ; i <= 10 ; i++){
-    let resultado = tabla * i 
-    console.log(`${tabla} x ${i} = ${resultado}`)
-}
+// for (let i = 0 ; i <= 10 ; i++){
+//     let resultado = tabla * i 
+//     console.log(`${tabla} x ${i} = ${resultado}`)
+// }
+
+// let prenda = prompt("Que prenda le interesa comprar")
+// // let marca  = prompt("Que marca le interesa comprar")
+
+// switch (prenda){
+//     case "pantalon":
+//         console.log(`Prenda: ${prenda}, joggins $4000, jeans $5600, shorts $2500, bermudas $3200.`)
+//         break;
+//     case "remera", "chomba", "musculosa":
+//         console.log(`Prenda: ${prenda}, remeras mangas cortas $2800, musculosas $1900, remeras mangas largas $3100, chombas $5500.`)
+//         break;
+//     case "buzo", "campera":
+//     console.log(`Prenda: ${prenda}, buzos con capucha $12000, buzos sin capucha $9000, camperas con capucha $14000, camperas sin capucha $10500`)
+//     break;
+//     default:
+//         console.log(`No tenemos disponible: ${prenda}`)
+//         break
+// }
